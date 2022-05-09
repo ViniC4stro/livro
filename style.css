@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#432818;
+}
+
+html{
+    scroll-behavior: smooth;
+ }
+
+.title h1{
+    font-family: 'Anton', sans-serif;
+    color: #ffd791;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+
+.container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 90px;
+    margin-bottom: 5px;
+}
+
+.nave nav ul, nav li{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nave nav a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffd791;
+    font-size: 20px;
+}
+
+.nave nav a:hover{
+    color: #ffff;
+}
+
+.content{
+    display: flex;
+    margin-top: 60px;  
+    align-items: center; 
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.foto1 img{
+    width: 350px;
+    height: 500px;
+    border: 10px solid #b87d48;
+}
+
+.foto1 img:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.foto2 img{
+    width: 450px;
+    height: 600px;
+    border: 10px solid #b87d48;
+}
+
+.foto2 img:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.foto3 img{
+    width: 350px;
+    height: 500px;
+    border: 10px solid #b87d48;
+}
+
+.foto3 img:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+hr{
+    width: 1500px;
+    color: #ffd791;
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.title1 h1{
+    font-size: 60px;
+    color: #ffd791;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    
+}
+
+.text{
+    width: 70%;
+    text-align: justify;
+}
+
+.text p{
+    font-size: 25px;
+    color: #ffd791;
+}
+
